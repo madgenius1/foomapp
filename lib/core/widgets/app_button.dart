@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 enum AppButtonVariant { elevated, outlined, text }
 
 class AppButton extends StatelessWidget {
-  final String text; // 🔄 changed from `label`
+  final String text;
   final VoidCallback? onPressed;
   final bool isLoading;
   final IconData? icon;
@@ -13,7 +13,7 @@ class AppButton extends StatelessWidget {
 
   const AppButton({
     Key? key,
-    required this.text, // 🔄 changed from `label`
+    required this.text,
     this.onPressed,
     this.isLoading = false,
     this.icon,

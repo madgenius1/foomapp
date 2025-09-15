@@ -32,7 +32,7 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
   DashboardNotifier() : super(const DashboardState());
 
   void loadDashboard() {
-    // Mock logic for now (later will connect to usage + wallet services)
+    // Mock logic
     state = state.copyWith(
       dailyUsage: const Duration(hours: 2, minutes: 15),
       tokensEarned: 15,

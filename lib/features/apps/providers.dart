@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-/// Mock list of installed apps (replace with package_manager plugin in real case)
+/// Mock list of installed apps
 final appsProvider = Provider<List<String>>((ref) {
   return [
     "Instagram",

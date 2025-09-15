@@ -71,7 +71,7 @@ class ProfileScreen extends ConsumerWidget {
           const Divider(),
           ElevatedButton.icon(
             onPressed: () {
-              // Replace with Firebase Auth signOut or mock
+              // To be replaced with Firebase Auth signOut or mock
               ref.read(userProvider.notifier).logout();
               Navigator.pop(context);
             },
